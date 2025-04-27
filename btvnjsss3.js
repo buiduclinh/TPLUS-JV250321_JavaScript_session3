@@ -80,19 +80,25 @@
 
 
 //B4:
-// 2 + 4 + 6 + 8 + .... 2n
 
-// let n = +prompt("nhập n");
 // let sumA = 0;
-// let isValidn = true;
-// if(Number.isNaN(n)===true){
-//     console.log("error");
-// }else {
-//     for(let i = 2; i <= 2*n; i = i + 2){
-//             sumA = i;
+
+// for(let i = 1; i <= 7; i = i + 1){
+//     let n = +prompt(`Nhập số nguyên thứ ${i}: `)
+//     if(Number.isNaN(n)===true || !Number.isInteger(n)){
+//         console.log("error");
+//         i = i - 1;
 //     }
-//     console.log(sumA);
+//     else{
+//         if(n%2===0){
+//         sumA = sumA + n;
+//         }
+//         else{
+//         console.log("Số lẻ");
+//         }
+//     }
 // }
+// console.log(`tổng số chẵn là: ${sumA}`);
 
 //B5: 
 
@@ -144,7 +150,7 @@
 //     }
 // }
 
-//B7
+//B7********************************************
 // let n = +prompt("nhập n");
 // let sumA = 0;
 
@@ -163,7 +169,7 @@
 // }
 
 
-//B8
+//B8*******************************************
 // let n = +prompt("nhập n");
 // let sumA = 0;
 
